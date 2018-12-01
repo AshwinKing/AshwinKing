@@ -46,7 +46,7 @@ chrome.contextMenus.create({
   contexts: [`browser_action`],
   onclick() {
     chrome.tabs.create({
-      url: `https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VYB8NZTKRZBFS`
+      url: ``
     });
   }
 });
