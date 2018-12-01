@@ -37,7 +37,7 @@ chrome.contextMenus.create({
   title: `GitHub`,
   contexts: [`browser_action`],
   onclick() {
-    chrome.tabs.create({ url: `https://github.com/Kadauchi/mturk-suite/` });
+    chrome.tabs.create({ url: `https://github.com/AshwinKing/KGS-SUITE` });
   }
 });
 
