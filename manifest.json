@@ -1,12 +1,12 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 1,
 
-  "name": "MTurk Suite",
+  "name": "KGS",
 
-  "version": "2.4.4",
+  "version": "1.0.0",
 
   "description":
-    "Enchances Mechanical Turk to increase your efficiency and earnings.",
+    "Script for Mturk.",
 
   "icons": {
     "16": "media/icon_16.png",
@@ -15,11 +15,11 @@
 
   "browser_action": {
     "default_icon": "media/icon_128.png",
-    "default_title": "MTurk Suite",
+    "default_title": "KGS Suite",
     "default_popup": "popup/popup.html"
   },
 
-  "author": "Kadauchi",
+  "author": "Ashwin",
 
   "background": {
     "scripts": [
@@ -45,7 +45,7 @@
   "offline_enabled": true,
 
   "omnibox": {
-    "keyword": "mturk"
+    "keyword": "KGS"
   },
 
   "options_page": "options/options.html",
@@ -65,7 +65,7 @@
     "https://www.amazon.com/ap/signin?*openid.return_to=https://worker.mturk.com/projects/*/tasks/accept_random*"
   ],
 
-  "short_name": "MTS",
+  "short_name": "KGS",
 
   "externally_connectable": {
     "matches": [
